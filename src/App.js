@@ -1,6 +1,10 @@
 import Business from "./Business";
+import Consult from "./Consult";
 import MainSlider from "./MainSlider";
+import MapKakao from "./MapKakao";
+
 import Outline from "./Outline";
+import Portfolio from "./Portfolio";
 import Process from "./Process";
 
 function App() {
@@ -17,6 +21,15 @@ function App() {
 
       {/* 진행과정 */}
       <Process />
+
+      {/* 진행사진 */}
+      <Portfolio />
+
+      {/* 상담신청하기 */}
+      <Consult />
+
+      {/* 카카오지도 */}
+      <MapKakao />
     </>
   );
 }

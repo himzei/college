@@ -1,23 +1,7 @@
-import {
-  Box,
-  Image,
-  Text,
-  VStack,
-  Grid,
-  GridItem,
-  HStack,
-} from "@chakra-ui/react";
-import Slider from "react-slick";
+import { Box, Image, Text, VStack, HStack } from "@chakra-ui/react";
 import { FaDog } from "react-icons/fa";
 
 export default function MainSlider() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 2000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   return (
     <VStack position={"relative"}>
       <Box
